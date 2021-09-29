@@ -1,0 +1,180 @@
+%% LyX 2.3.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm,headheight=0cm,headsep=0cm}
+\usepackage{babel}
+\usepackage[unicode=true]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\@ifundefined{date}{}{\date{}}
+\makeatother
+
+\begin{document}
+\title{CSCE 221 - Programming Assignment 4 Report \textbf{(20 points)}}
+\maketitle
+\begin{center}
+{\large{}Due April 14, 2021}{\large\par}
+\par\end{center}
+\author{First Name:~~~~~~~~~~~~~~~~~Last Name: ~~~~~~~~~~~~~~~~~~~~~~UIN:~~~~~~~~~~~~~~}
+\author{User Name: ~~~~~~~~~~~~~~~~~~~~~~E-mail address:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\medskip{}
+}
+\begin{quotation}
+Please list all sources in the table below including web pages which
+you used to solve or implement the current homework. If you fail to
+cite sources you can get a lower number of points or even zero, read
+more in the Aggie Honor System Office \href{http://aggiehonor.tamu.edu/}{http://aggiehonor.tamu.edu/}\medskip{}
+\medskip{}
+\end{quotation}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline 
+\textbf{Type of sources} & ~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~\tabularnewline
+\hline 
+People &  &  &  &  & \tabularnewline
+\hline 
+Web pages (provide URL) &  &  &  &  & \tabularnewline
+\hline 
+Printed material &  &  &  &  & \tabularnewline
+\hline 
+Other Sources &  &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\date{\medskip{}
+\medskip{}
+}
+\begin{quotation}
+I certify that I have listed all the sources that I used to develop
+the solutions/code to the submitted work.
+
+\textquotedblleft \emph{On my honor as an Aggie, I have neither given
+nor received any unauthorized help on this academic work.}\textquotedblright{} 
+\end{quotation}
+\date{\medskip{}
+\medskip{}
+}
+
+\begin{tabular}{ccccc}
+Your Name (signature) & ~~~~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~ & Date & ~~~~~~~~~~~~~~~~~~~~\tabularnewline
+\end{tabular}\pagebreak{}
+\begin{enumerate}
+\item The description of the assignment problem.\vfill{}
+\item The description of data structures and algorithms used to solve the
+problem.
+\begin{enumerate}
+\item Provide definitions of data structures by using Abstract Data Types
+(ADTs) \vfill{}
+\item Write about the ADTs implementation in C++ (for all the three MPQs).\vfill{}
+\item Describe algorithms used to solve the problem. For every MPQ\texttt{
+(UnsortedMPQ}, \texttt{SortedMPQ} and \texttt{BinaryHeapMPQ}), list
+the MPQ functions (\texttt{remove\_min(), is\_empty(), min(),} and
+\texttt{insert()}) and provide their descriptions.\vfill{}
+\item Show the time complexity analysis for the following. Time complexity
+analysis means providing a \textbf{basic runtime function/recurrence
+relation}, \textbf{solution for recurrence relation with steps (wherever
+needed)} and a \textbf{Big-O} Notation:
+\begin{enumerate}
+\item \textbf{Best, worst, and average case} of each of the MPQ functions
+(\texttt{\textbf{remove\_min(), is\_empty(), min(),}}\textbf{ and
+}\texttt{\textbf{insert()}}) for \texttt{\textbf{UnsortedMPQ.}} (Note:
+Some functions may have same runtimes for all the cases. In that case,
+write the answer only once and mention that the runtime applies to
+all the cases.).\vfill{}
+
+\begin{enumerate}
+\item Provide an \textbf{example for} \textbf{best, worst, and average case}
+for \texttt{\textbf{UnsortedMPQ}}. \vfill{}
+\end{enumerate}
+\item \textbf{Best, worst, and average case} of each of the MPQ functions
+(\texttt{\textbf{remove\_min(), is\_empty(), min(),}}\textbf{ and
+}\texttt{\textbf{insert()}}) for \texttt{\textbf{SortedMPQ.}} (Note:
+Some functions may have same runtimes for all the cases. In that case,
+write the answer only once and mention that the runtime applies to
+all the cases).\vfill{}
+
+\begin{enumerate}
+\item Provide an \textbf{example for} \textbf{best, worst, and average case}
+for \texttt{\textbf{SortedMPQ}}. \vfill{}
+\end{enumerate}
+\item \textbf{Best, worst, and average case} of each of the MPQ functions
+(\texttt{\textbf{remove\_min(), is\_empty(), min(),}}\textbf{ and
+}\texttt{\textbf{insert()}}) for \texttt{\textbf{BinaryHeapMPQ.}}
+(Note: Some functions may have same runtimes for all the cases. In
+that case, write the answer only once and mention that the runtime
+applies to all the cases).\vfill{}
+
+\begin{enumerate}
+\item Provide an \textbf{example for} \textbf{best, worst, and average case}
+for \texttt{\textbf{BinaryHeapMPQ}}. \vfill{}
+\pagebreak{}
+\end{enumerate}
+\end{enumerate}
+\end{enumerate}
+\item A C++ organization and implementation of the problem solution 
+\begin{enumerate}
+\item Provide a list and description of classes or interfaces used by a
+program such as classes used to implement the data structures or exceptions.\vfill{}
+\item Provide features of the C++ programming paradigms like Inheritance
+or Polymorphism in case of object oriented programming, or Templates
+in the case of generic programming used in your implementation. \vfill{}
+\end{enumerate}
+\item A user guide description how to navigate your program with the instructions
+how to: 
+\begin{enumerate}
+\item compile the program: specify the directory and file names, etc.\vfill{}
+\item run the program: specify the name of an executable file. \vfill{}
+\pagebreak{}
+\end{enumerate}
+\item Specifications and description of input and output formats and files 
+\begin{enumerate}
+\item The type of files: keyboard, text files, etc (if applicable). \vfill{}
+\item A file input format: when a program requires a sequence of input items,
+specify the number of items per line or a line termination. Provide
+a sample of a required input format. \vfill{}
+\item Discuss possible cases when your program could crash because of incorrect
+input (a wrong file name, strings instead of a number, or such cases
+when the program expects 10 items to read and it finds only 9.)\vfill{}
+\end{enumerate}
+\item Provide types of exceptions and their purpose in your program (Answer
+only to the ones that are applicable for this assignment).
+\begin{enumerate}
+\item logical exceptions (such as deletion of an item from an empty container,
+etc.).\vfill{}
+\item runtime exception (such as division by $0$, etc.)\vfill{}
+\end{enumerate}
+\item Include evidence of your testing by providing screenshots. Screenshots
+should show execution of the 5 main methods \texttt{(unsortedmpq-main.cpp,
+sortedmpq-main.cpp, main.cpp, cpu-job-main.cpp, binaryheap-mpq-main.cpp).}\vfill{}
+\item Provide graphs and data tables of your CPU timing simulation results.
+Graph should be plotted for \textbf{runtime vs. input size}. The input
+sizes are 4, 10, 100, and 1,000. To obtain this data, compile and
+run \texttt{main.cpp}. Choose option ``2. Timing Simulation''. Provide
+the input file name (SetSize4.txt) and output filename. After execution,
+you will find the output file in ``OutputFiles'' folder. The timing
+for all the three MPQ implementations will be displayed. Fill it in
+the following table and plot it as a \textbf{graph}.
+
+\begin{tabular}{|c|c|c|c|}
+\hline 
+ & \multicolumn{3}{c|}{Runtime}\tabularnewline
+\hline 
+Input Sizes & Unsorted MPQ & Sorted MPQ & Binary heap MPQ\tabularnewline
+\hline 
+4 (SetSize4.txt) &  &  & \tabularnewline
+\hline 
+10 (SetSize10.txt) &  &  & \tabularnewline
+\hline 
+100 (SetSize100.txt) &  &  & \tabularnewline
+\hline 
+1000 (SetSize1000.txt) &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\end{enumerate}
+
+\end{document}

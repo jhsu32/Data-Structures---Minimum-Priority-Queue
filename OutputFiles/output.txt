@@ -1,0 +1,39 @@
+Running simulation for UnsortedMPQ with 10 jobs
+Job 4 with length 7 and priority -16
+Job 2 with length 10 and priority -16
+Job 8 with length 3 and priority -3
+Job 9 with length 9 and priority -3
+Job 10 with length 9 and priority -3
+Job 3 with length 8 and priority 3
+Job 7 with length 7 and priority 8
+Job 1 with length 2 and priority 11
+Job 5 with length 9 and priority 11
+Job 6 with length 2 and priority 15
+No more jobs to run
+
+Running simulation for SortedMPQ with 10 jobs
+Job 4 with length 7 and priority -16
+Job 2 with length 10 and priority -16
+Job 8 with length 3 and priority -3
+Job 9 with length 9 and priority -3
+Job 10 with length 9 and priority -3
+Job 3 with length 8 and priority 3
+Job 7 with length 7 and priority 8
+Job 1 with length 2 and priority 11
+Job 5 with length 9 and priority 11
+Job 6 with length 2 and priority 15
+No more jobs to run
+
+Running simulation for BinaryHeapMPQ with 10 jobs
+Job 4 with length 7 and priority -16
+Job 2 with length 10 and priority -16
+Job 8 with length 3 and priority -3
+Job 9 with length 9 and priority -3
+Job 10 with length 9 and priority -3
+Job 3 with length 8 and priority 3
+Job 7 with length 7 and priority 8
+Job 1 with length 2 and priority 11
+Job 5 with length 9 and priority 11
+Job 6 with length 2 and priority 15
+No more jobs to run
+
